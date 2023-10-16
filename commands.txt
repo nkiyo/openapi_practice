@@ -1,0 +1,3 @@
+npx openapi-generator-cli generate -g nodejs-express-server -i .\petstore.yaml -o server 
+npx openapi-generator-cli generate -g bash -i .\petstore.yaml -o bash
+npx openapi-generator-cli generate -g html -i .\petstore.yaml -o html
